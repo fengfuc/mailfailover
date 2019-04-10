@@ -5,10 +5,10 @@
         Mail form
       </q-card-title>
       <q-card-main>
-        <q-input v-model="from" float-label="Sender mail address" placeholder="sender@example.com" />
-        <q-input v-model="to" float-label="Receiver mail address" placeholder="r1@example.com,r1@example.com" />
+        <q-input v-model="from" float-label="Sender's mail address" placeholder="sender@example.com" />
+        <q-input v-model="to" float-label="Receivers mail addresses" placeholder="r1@example.com,r1@example.com" />
         <q-input v-model="subject" float-label="Subject" placeholder="Hello from Jane" />
-        <q-input v-model="text" type="textarea" float-label="Main content" placeholder="Hi John, ..." />
+        <q-input v-model="text" type="textarea" rows="4" float-label="Content" placeholder="Hi John, ..." />
       </q-card-main>
       <q-card-separator />
       <q-card-actions align="center">
